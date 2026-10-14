@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rishi Simulations</title>
+    <meta
+      name="description"
+      content="Rishi Simulations is an AI-powered learning platform for JEE and electronics students, with interactive simulations and smart guidance."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <nav class="nav container">
+          <div class="brand-wrap">
+            <div class="brand-icon" aria-label="Rishi Simulations logo">
+              <svg viewBox="0 0 100 100" role="img" aria-label="Newton with apple">
+                <defs>
+                  <linearGradient id="bgGrad" x1="0%" x2="100%" y1="0%" y2="100%">
+                    <stop offset="0%" stop-color="#3b82f6" />
+                    <stop offset="100%" stop-color="#8b5cf6" />
+                  </linearGradient>
+                </defs>
+                <circle cx="50" cy="50" r="46" fill="url(#bgGrad)" opacity="0.9"/>
+                <circle cx="50" cy="35" r="18" fill="#f0d4af"/>
+                <path d="M39 37 Q50 22 61 37" fill="none" stroke="#1b1b26" stroke-width="4" stroke-linecap="round"/>
+                <path d="M34 42 Q50 55 66 42" fill="none" stroke="#1b1b26" stroke-width="4" stroke-linecap="round"/>
+                <path d="M42 48 L33 72" stroke="#1b1b26" stroke-width="5" stroke-linecap="round"/>
+                <path d="M58 48 L66 72" stroke="#1b1b26" stroke-width="5" stroke-linecap="round"/>
+                <path d="M47 65 L53 65" stroke="#1b1b26" stroke-width="4" stroke-linecap="round"/>
+                <circle cx="69" cy="24" r="11" fill="#d97706"/>
+                <path d="M68 8 Q72 17 82 19" fill="none" stroke="#d97706" stroke-width="4" stroke-linecap="round"/>
+                <path d="M68 15 Q76 21 78 29" fill="none" stroke="#a16207" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M68 19 Q74 21 77 26" fill="none" stroke="#7c2d12" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <span class="brand-name">Rishi Simulations</span>
+              <small>AI learning system</small>
+            </div>
+          </div>
+
+          <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#simulations">Simulations</a>
+            <a href="#ai">AI Tutor</a>
+            <a href="#about">About</a>
+          </div>
+
+          <button class="nav-cta">Launch App</button>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero container">
+          <div class="hero-copy">
+            <div class="eyebrow">For JEE • Physics • Electronics</div>
+            <h1>Turn concepts into visuals. Learn by simulation.</h1>
+            <p>
+              Rishi Simulations blends AI-powered guidance with interactive experiments for
+              JEE aspirants and electronics students. Ask, search, simulate, and watch the
+              concept come alive in real time.
+            </p>
+
+            <div class="search-box">
+              <span class="search-icon">⌕</span>
+              <input type="text" id="searchInput" placeholder="Search simulations, concepts, and formulas..." />
+              <button>Search</button>
+            </div>
+
+            <div class="hero-actions">
+              <button class="primary">Explore Simulations</button>
+              <button class="secondary">Ask AI Tutor</button>
+            </div>
+
+            <div class="stats">
+              <div>
+                <strong>200+</strong>
+                <span>Concepts</span>
+              </div>
+              <div>
+                <strong>24/7</strong>
+                <span>AI Help</span>
+              </div>
+              <div>
+                <strong>90%</strong>
+                <span>Clarity Boost</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Simulation preview">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+
+            <div class="glass-panel preview-card">
+              <div class="mini-header">
+                <span class="dot blue"></span>
+                <span class="dot orange"></span>
+                <span class="dot green"></span>
+              </div>
+
+              <div class="sim-scene">
+                <div class="trajectory"></div>
+                <div class="ball"></div>
+                <div class="ground"></div>
+              </div>
+
+              <div class="sim-data">
+                <div>
+                  <span>Angle</span>
+                  <strong>42°</strong>
+                </div>
+                <div>
+                  <span>Velocity</span>
+                  <strong>60 m/s</strong>
+                </div>
+                <div>
+                  <span>Time</span>
+                  <strong>5.2s</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="profile-card">
+              <div class="avatar-mini">
+                <svg viewBox="0 0 100 100" role="img" aria-label="Newton profile illustration">
+                  <circle cx="50" cy="50" r="46" fill="#111827" opacity="0.95"/>
+                  <circle cx="50" cy="35" r="16" fill="#f0d4af"/>
+                  <path d="M39 36 Q50 22 61 36" fill="none" stroke="#f8fafc" stroke-width="4" stroke-linecap="round"/>
+                  <path d="M36 42 Q50 56 64 42" fill="none" stroke="#f8fafc" stroke-width="4" stroke-linecap="round"/>
+                  <path d="M42 49 L34 71" stroke="#f8fafc" stroke-width="4" stroke-linecap="round"/>
+                  <path d="M58 49 L66 71" stroke="#f8fafc" stroke-width="4" stroke-linecap="round"/>
+                  <circle cx="69" cy="24" r="10" fill="#f59e0b"/>
+                  <path d="M68 12 Q72 19 80 22" fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div>
+                <p>Newton</p>
+                <small>Mentor of motion</small>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="feature-strip container" id="features">
+          <div class="feature-item">
+            <span class="icon">⚡</span>
+            <div>
+              <h3>AI Search</h3>
+              <p>Search using everyday questions and get relevant simulations.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <span class="icon">📘</span>
+            <div>
+              <h3>JEE Mastery</h3>
+              <p>Concept visuals for kinematics, optics, electrostatics and more.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <span class="icon">🔌</span>
+            <div>
+              <h3>Electronics Lab</h3>
+              <p>Explore circuits, signals, semiconductors, and transistor action.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="simulations container" id="simulations">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">Simulation library</span>
+              <h2>Learn by creating motion, waves, and circuits.</h2>
+            </div>
+            <a href="#">View all</a>
+          </div>
+
+          <div class="sim-grid" id="simGrid">
+            <article class="sim-card" data-tags="projectile physics mechanics jee motion">
+              <div class="thumb thumb-1"></div>
+              <div class="card-body">
+                <span class="tag">JEE Physics</span>
+                <h3>Projectile Motion</h3>
+                <p>See how angle, height, and velocity shape the trajectory.</p>
+              </div>
+            </article>
+
+            <article class="sim-card" data-tags="circuit electronics rc charge current">
+              <div class="thumb thumb-2"></div>
+              <div class="card-body">
+                <span class="tag">Electronics</span>
+                <h3>RC Charging</h3>
+                <p>Understand exponential current and capacitor rise time.</p>
+              </div>
+            </article>
+
+            <article class="sim-card" data-tags="optics jee reflection lens mirror">
+              <div class="thumb thumb-3"></div>
+              <div class="card-body">
+                <span class="tag">Optics</span>
+                <h3>Lens Formation</h3>
+                <p>Explore image formation with convex and concave lenses.</p>
+              </div>
+            </article>
+
+            <article class="sim-card" data-tags="semiconductor electronics diode transistor">
+              <div class="thumb thumb-4"></div>
+              <div class="card-body">
+                <span class="tag">Semiconductors</span>
+                <h3>Diode I-V Curve</h3>
+                <p>Visualize conduction and reverse bias behavior in real time.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="ai-section container" id="ai">
+          <div class="ai-card">
+            <div class="ai-copy">
+              <span class="eyebrow">AI tutor</span>
+              <h2>Ask anything and get a simulation answer.</h2>
+              <p>
+                Want to understand why a projectile lands earlier, or how a transistor acts in a circuit?
+                Ask in plain language and the AI helps connect the concept to a visual model.
+              </p>
+              <div class="prompt-list">
+                <button>“Explain projectile motion in a simple way.”</button>
+                <button>“Show me RC charging with graph.”</button>
+                <button>“How does a diode behave in forward bias?”</button>
+              </div>
+            </div>
+
+            <div class="chat-shell">
+              <div class="chat-message user">What is the role of the capacitor in a charging circuit?</div>
+              <div class="chat-message bot">It stores energy and charges exponentially based on the time constant τ = RC.</div>
+              <div class="chat-message user">Can you show the graph?</div>
+              <div class="chat-message bot">Yes — here is the visual simulation for voltage and current rise.</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="process container" id="about">
+          <div class="section-heading center">
+            <span class="eyebrow">How it works</span>
+            <h2>From question to visual learning in minutes.</h2>
+          </div>
+
+          <div class="steps">
+            <div class="step">
+              <span>1</span>
+              <h3>Ask</h3>
+              <p>Type a concept, formula, or simulation query.</p>
+            </div>
+            <div class="step">
+              <span>2</span>
+              <h3>Search</h3>
+              <p>Find the closest relevant JEE or electronics concept.</p>
+            </div>
+            <div class="step">
+              <span>3</span>
+              <h3>Simulate</h3>
+              <p>See the graph, motion, or circuit evolve in front of you.</p>
+            </div>
+            <div class="step">
+              <span>4</span>
+              <h3>Learn</h3>
+              <p>Understand the reasoning and improve retention.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer-inner">
+          <div>
+            <div class="brand-wrap small-brand">
+              <div class="brand-icon small">
+                <svg viewBox="0 0 100 100" role="img" aria-label="Newton with apple logo">
+                  <circle cx="50" cy="50" r="46" fill="#2563eb"/>
+                  <circle cx="50" cy="35" r="18" fill="#f0d4af"/>
+                  <path d="M39 37 Q50 22 61 37" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+                  <path d="M42 49 L33 72" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+                  <path d="M58 49 L66 72" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+                  <circle cx="69" cy="24" r="11" fill="#f59e0b"/>
+                </svg>
+              </div>
+              <div>
+                <span class="brand-name">Rishi Simulations</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <a href="#features">Features</a>
+            <a href="#simulations">Simulations</a>
+            <a href="#ai">AI Tutor</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
